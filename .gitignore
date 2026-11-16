@@ -1,0 +1,22 @@
+# Sorties de compilation .NET
+[Bb]in/
+[Oo]bj/
+app/
+*.user
+
+# Sortie du patch (créée à l'exécution, ne pas versionner)
+PatchBackup/
+Backups/
+
+# Artefacts de build locaux
+*.dll
+*.pdb
+*.exe
+
+# Sorties de test regenerees par --self-test
+experimental-tests.txt
+test-result.txt
+
+# Divers
+.vs/
+*.log
